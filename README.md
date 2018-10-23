@@ -4,7 +4,8 @@ ASP.net and Entity Framework Project
 Question:
 
 Create using ASP.NET and Database connectivity through Entity 
-1.. User account
+
+1. User account
 The registered user can directly do the booking of flights and if there is a new user he may register or he only sees the flight details. 
 But for the reservation of ticket he must register first.
 
