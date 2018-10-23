@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SOADBModelStoreContainer" CdmEntityContainer="SOADBEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="SOADBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Pswd" ColumnName="Pswd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Journeys">
+      <EntityTypeMapping TypeName="SOADBModel.Journey">
+        <MappingFragment StoreEntitySet="Journey">
+          <ScalarProperty Name="ArrTime" ColumnName="ArrTime" />
+          <ScalarProperty Name="DeptTime" ColumnName="DeptTime" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="dDate" ColumnName="dDate" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="JourneyId" ColumnName="JourneyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CardInfoes">
+      <EntityTypeMapping TypeName="SOADBModel.CardInfo">
+        <MappingFragment StoreEntitySet="CardInfo">
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="Expiry" ColumnName="Expiry" />
+          <ScalarProperty Name="CVV" ColumnName="CVV" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tickets">
+      <EntityTypeMapping TypeName="SOADBModel.Ticket">
+        <MappingFragment StoreEntitySet="Ticket">
+          <ScalarProperty Name="SeatsDetails" ColumnName="SeatsDetails" />
+          <ScalarProperty Name="Seats" ColumnName="Seats" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="JourneyId" ColumnName="JourneyId" />
+          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

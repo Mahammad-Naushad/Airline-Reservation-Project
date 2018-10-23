@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SOADBModelStoreContainer" CdmEntityContainer="SOADBEntities">
+    <EntitySetMapping Name="CardInfoes">
+      <EntityTypeMapping TypeName="SOADBModel.CardInfo">
+        <MappingFragment StoreEntitySet="CardInfo">
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="CVV" ColumnName="CVV" />
+          <ScalarProperty Name="Expiry" ColumnName="Expiry" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tickets">
+      <EntityTypeMapping TypeName="SOADBModel.Ticket">
+        <MappingFragment StoreEntitySet="Ticket">
+          <ScalarProperty Name="Seats" ColumnName="Seats" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="JourneyId" ColumnName="JourneyId" />
+          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

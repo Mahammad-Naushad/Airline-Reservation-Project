@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="UI_Design.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UI_Design_localhost_Payment" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:56280/Payment.asmx</Value>
+    </Setting>
+    <Setting Name="UI_Design_localhost1_UpdateBalance" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:56280/UpdateBalance.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

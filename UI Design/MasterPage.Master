@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="UI_Design.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 236px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1" style="font-family: &quot;Franklin Gothic Book&quot;; font-weight: bolder; font-size: 16px; font-style: normal; color: #000000">
+            <tr>
+                <td class="auto-style2">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/LogInPage.aspx">Home</asp:HyperLink>
+                </td>
+                <td>
+                    <asp:HyperLink ID="HyperLink2" runat="server">About Us</asp:HyperLink>
+                </td>
+                <td>
+                    <asp:HyperLink ID="HyperLink3" runat="server">Contact Us</asp:HyperLink>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
